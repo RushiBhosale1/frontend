@@ -1,0 +1,109 @@
+/* Text gradient animation */
+.text-gradient-animation {
+    display: inline-block;
+    background-image: linear-gradient(-45deg, #e6e9e8, white, rgb(14,97,95), #0f3443);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: Gradient 10s ease infinite;
+}
+
+/* Animation Keyframes */
+@keyframes Gradient {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Text gradient basic */
+.text-gradient {
+    display: inline-block;
+    background-image: linear-gradient(-45deg, #6eab9a, #39f6a3, #6eab9a);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Styled unordered list */
+.styled-text ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.styled-text ul li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.styled-text ul li:before {
+    content: '';
+    display: inline-block;
+    height: 1.2rem;
+    width: 1.2rem;
+    background-size: cover;
+    background-image: url("https://assets-global.website-files.com/64bfca2ced1b82f490a58a1a/64ca7d89a0c275738e614dba_check-mark-lightgreen.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Hover effect for list items */
+.styled-text ul li:hover {
+    color: #007BFF; /* Change text color on hover */
+}
+
+/* Hover effect for list item icon */
+.styled-text ul li:hover:before {
+    filter: brightness(120%); /* Adjust brightness on hover */
+}
+
+.mmmoooo img{
+    filter: grayscale(100%) brightness(200%) sepia(0%) hue-rotate(0deg);
+}
+.icon-wrap big img{
+    filter: grayscale(100%) brightness(200%) sepia(0%) hue-rotate(0deg);
+
+}
+.tp-widget-wrapper{
+display: none !important;
+}
+.tp-widget-wrapper .active{
+    display: none !important;
+    }
+.whitenumber{
+    color: white;
+}
+.home-video-heading-wrapper{
+    position: relative;
+    top: 10rem;
+}
+.home-hero-section{
+    margin-bottom: 10rem;
+}
+.translations-main{
+    display: none;
+}
+#tp-widget-rating{
+    display: none;
+
+}
+.tp-widget-rating{
+    display: none !important;
+
+}
+.tp-widget-logo{
+    display: none !important;
+
+}
