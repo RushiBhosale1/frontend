@@ -1,0 +1,109 @@
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    padding:0rem 2rem;
+    margin-top: 4rem;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-1-header h1{
+    font-family: sans-serif;
+font-size: 3rem;
+}
+.logo-img img{
+    width: 80%;
+    position: relative;
+    left: 8rem;
+    bottom: 1.5rem;
+}
+.text-inside-sec1{
+    margin-top: 3rem;
+    line-height: 1.4rem;
+}
+.text-inside-sec1 p{
+    margin: 0rem;
+}
+.sec-2-bill p{
+    margin: 0rem;
+}
+.section-2{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.sec-2-bill{
+    line-height: 1.4rem;
+
+}
+.sec-2-detail{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+   
+}
+.sec-2-detail ul{
+    list-style: none;
+}
+.section-3{
+    margin-top: 3rem;
+}
+.section-3 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+.section-3 th {
+    height: 2rem;
+    text-align: center;
+    border: 0.2rem solid rgb(236, 21, 21);
+    border-right: 0rem;
+    border-left: 0rem;
+    color: black; 
+    
+    
+}
+.section-3 td {
+  padding-top: 1rem;
+    text-align: center;
+}
+.section-4 div{
+    position: relative;
+    left: 50rem;
+    top: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.footer-thank-you{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 1rem;
+    bottom: 1rem;
+}
+.footer-thank-you p:nth-child(1){
+    font-size: 1.3rem;
+}
+.footer-thank-you p:nth-child(2){
+    font-size: 1.1rem;
+}
+.img-paid{
+    position: absolute;
+    top:13rem;
+    height: 20rem;
+    right: 1rem;
+    opacity: 50%;
+}
+.section-4 p{
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+}
