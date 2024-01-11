@@ -1,0 +1,16 @@
+
+.hover-point-price:hover{
+    border: 3px solid green;
+}
+.pointactive{
+    border: 3px solid green;
+}
+.modal-content{
+    background-color: white !important;
+}
+.modal-header button{
+    display: none !important;
+}
+.static-modal-down .modal-content{
+    margin-top: 10rem;
+}
